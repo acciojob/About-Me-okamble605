@@ -1,1 +1,75 @@
 
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-section h2 {
+  font-size: 24px;
+  color: #1877f2;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.profile-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+#picture .profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Skills Section */
+.skills-container {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #42b72a;
+  border-radius: 5px;
+}
