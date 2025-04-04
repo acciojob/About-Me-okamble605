@@ -1,75 +1,100 @@
-
-/* Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* General Layout */
+/* General Page Styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
+/* Main Container */
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+    background: white;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.profile-section {
-  margin-bottom: 30px;
+/* Left Column */
+.left-column {
+    width: 40%;
+    padding: 20px;
 }
 
-.profile-section h2 {
-  font-size: 24px;
-  color: #1877f2;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+/* Profile Section */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.profile-section p {
-  font-size: 16px;
-  color: #555;
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 10px;
 }
 
-#picture .profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-top: 20px;
+.info h3 {
+    margin: 5px 0;
+}
+
+.info span {
+    font-weight: bold;
+    color: #333;
 }
 
 /* Skills Section */
-.skills-container {
-  margin-top: 20px;
+.skills h2 {
+    margin-top: 20px;
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
+/* Skill Bars */
 .skill {
-  margin-bottom: 20px;
-}
-
-.skill p {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.progress-bar {
-  width: 100%;
-  height: 10px;
-  background-color: #e0e0e0;
-  border-radius: 5px;
-  overflow: hidden;
+    margin-top: 10px;
 }
 
 .progress {
-  height: 100%;
-  background-color: #42b72a;
-  border-radius: 5px;
+    background: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: #007bff;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* Right Column */
+.right-column {
+    width: 60%;
+    padding: 20px;
+}
+
+/* About Section */
+.about h2 {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about p {
+    line-height: 1.5;
 }

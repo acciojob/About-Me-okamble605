@@ -1,82 +1,67 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Profile</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="container">
-    <!-- Name Section -->
-    <section class="profile-section" id="name">
-      <h2>Name</h2>
-      <p>John Doe</p>
-    </section>
 
-    <!-- Email Section -->
-    <section class="profile-section" id="email">
-      <h2>Email</h2>
-      <p>johndoe@example.com</p>
-    </section>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <div class="info">
+                    <h3>Name: <span>Shubham Bhola</span></h3>
+                    <h3>Profile: <span>Software Developer</span></h3>
+                    <h3>Email: <span>abcdef796@gmail.com</span></h3>
+                </div>
+            </div>
 
-    <!-- Profile Section -->
-    <section class="profile-section" id="profile">
-      <h2>Profile</h2>
-      <p>Front-End Developer, Passionate about creating clean and efficient user interfaces.</p>
-    </section>
+            <div class="skills">
+                <h2>Skills</h2>
 
-    <!-- About Me Section -->
-    <section class="profile-section" id="about-me">
-      <h2>About Me</h2>
-      <p>
-        I am a passionate front-end developer with a strong foundation in HTML, CSS, JavaScript, and React. I thrive on
-        creating intuitive, user-friendly web applications. I have a keen interest in web design and user experience
-        optimization.
-      </p>
-    </section>
+                <div class="skill">
+                    <span>React ⚛️ | CSS 🎨 | JavaScript 🟨</span>
+                    <div class="progress"><div class="progress-bar" style="width: 95%;">95%</div></div>
+                </div>
 
-    <!-- Skills Section -->
-    <section class="profile-section" id="skills">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <div class="skill">
-          <p>HTML</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 90%"></div>
-          </div>
+                <div class="skill">
+                    <span>Node.js 🟢 | MongoDB 🍃</span>
+                    <div class="progress"><div class="progress-bar" style="width: 90%;">90%</div></div>
+                </div>
+
+                <div class="skill">
+                    <span>C/C++ 💻 | Python 🐍 | Batch 📁</span>
+                    <div class="progress"><div class="progress-bar" style="width: 99%;">99%</div></div>
+                </div>
+
+                <div class="skill">
+                    <span>AWS ☁️ | Hadoop 🐘</span>
+                    <div class="progress"><div class="progress-bar" style="width: 93%;">93%</div></div>
+                </div>
+            </div>
         </div>
-        <div class="skill">
-          <p>CSS</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 85%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <p>JavaScript</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 75%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <p>React</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 80%"></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Picture Section (optional) -->
-    <section class="profile-section" id="picture">
-      <h2>Picture</h2>
-      <img src="https://via.placeholder.com/150" alt="John Doe's picture" class="profile-picture">
-    </section>
-  </div>
+        <!-- Right Column -->
+        <div class="right-column">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>
+                    I am a self-starter with a passion to adapt and evangelize new technologies. 
+                    I have a passion for software development with a diverse skill set ranging from the MERN stack 
+                    to a stronghold on data structures and algorithms.
+                    I like to tackle complex challenges head-on to deliver technically sound solutions with optimum efficiency.
+                </p>
+                <p>
+                    I believe that magic is possible with a blend of imagination, hard work, and passion.
+                    Most of all, I believe in determination and honest efforts to enhance my skills in order to contribute to the growth of society.
+                </p>
+            </div>
+        </div>
+    </div>
+
 </body>
-
 </html>
